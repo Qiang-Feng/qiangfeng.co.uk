@@ -1,0 +1,20 @@
+html,
+body {
+  background: #2098d1;
+  text-align: center;
+}
+
+a {
+  color: white;
+  border: 1px solid white;
+  display: inline-block;
+  border-radius: 40px;
+  padding: 15px 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+h1 {
+  color: white;
+  margin: 120px 0 80px;
+}

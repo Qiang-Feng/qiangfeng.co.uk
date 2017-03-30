@@ -1,0 +1,161 @@
+* {
+  font-family: 'Raleway', sans-serif;
+  color: #565656;
+}
+
+p {
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border 0.4s ease;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+}
+
+body, input, select, textarea {
+  font-size: 1.2em;
+  background-color: white;
+}
+
+.clearfix {
+  clear: both;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 2.8em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.17em;
+}
+
+h4 {
+  font-size: 1.12em;
+}
+
+h5 {
+ font-size: 0.83em;
+}
+
+h6 {
+  font-size: 0.75em;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #2098d1;
+  text-align: center;
+}
+
+header {
+  padding: 120px 40px;
+}
+
+header h1 {
+  color: white;
+  margin-bottom: 40px;
+}
+
+header p {
+  font-size: 22px;
+  color: white;
+}
+
+header a {
+  color: white;
+}
+
+section {
+  padding: 60px 0;
+  margin: 0;
+  background: #f7f7f7;
+}
+
+[class^="ic-"], [class*=" ic-"] {
+  display: inline-block;
+  line-height: 1;
+  background-size: 32px 32px;
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.ic-mail {
+  background-image: url("../img/ic-mail.svg");
+}
+
+.ic-file {
+  background-image: url("../img/ic-file.svg");
+}
+
+.ic-github {
+  background-image: url("../img/ic-github.svg");
+}
+
+.ic-linkedin {
+  background-image: url("../img/ic-linkedin.svg");
+}
+
+.links {
+  list-style: none;
+  margin: 50px 0 0;
+  padding: 0;
+}
+
+.links li {
+  display: inline-block;
+  margin-right: 60px;
+  padding: 0;
+}
+
+.links li.last {
+  margin: 0;
+}
+
+.links li a {
+  border: none;
+  font-size: 1.2em;
+  vertical-align: middle;
+}
+
+.links li i {
+  font-style: normal;
+}
+
+@media screen and (max-width: 720px) {
+  .links li {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .links li {
+    display: block;
+    text-align: middle;
+    margin: 30px 0;
+  }
+  .links li i {
+    display: inline-block;
+    width: 135px;
+    text-align: left;
+  }
+}
