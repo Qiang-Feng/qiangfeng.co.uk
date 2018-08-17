@@ -137,8 +137,9 @@ section {
   vertical-align: middle;
 }
 
-.links li i {
-  font-style: normal;
+.links li a .alt {
+  color: inherit;
+  vertical-align: middle;
 }
 
 @media screen and (max-width: 720px) {
@@ -153,7 +154,7 @@ section {
     text-align: middle;
     margin: 30px 0;
   }
-  .links li i {
+  .links li a {
     display: inline-block;
     width: 135px;
     text-align: left;
